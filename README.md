@@ -77,11 +77,11 @@ def mc_control (env, gamma = 1.0,
 
 ### 1st Ouput
 
-![](op1.png)
+
 
 ### 2nd Output
 
-![](op2.png)
+
 
 ## RESULT:
 
