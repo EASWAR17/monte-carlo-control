@@ -59,6 +59,7 @@ def mc_control (env, gamma = 1.0,
     trajectory = generate_trajectory(select_action,Q,epsilons[e],env,max_steps)
     visited = [[0]*nA for _ in range(nS)]
 
+
     for t, (state,action,reward,_,_) in enumerate(trajectory):
       state = int(state)
       action = int(action)
@@ -83,11 +84,9 @@ def mc_control (env, gamma = 1.0,
 
 ![image](https://github.com/EASWAR17/monte-carlo-control/assets/94154683/90cdb02c-a016-4896-b27d-1510186b552b)
 
-
 ### 2nd Output
 
 ![image](https://github.com/EASWAR17/monte-carlo-control/assets/94154683/8c3cbc21-29cc-40f8-a7a6-682c58834f3d)
-
 
 ## RESULT:
 
